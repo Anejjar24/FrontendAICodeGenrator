@@ -1,57 +1,57 @@
-# 🚀 FrontEndPFA
+# ⚡ AI Code Generator — Frontend
 
-Frontend du projet PFA — cette application utilise **Vite + React**.
-Ce guide vous montre comment cloner, installer les dépendances et lancer le projet localement.
+Frontend du projet **AI Code Generator**, une interface moderne développée avec **React + Vite**.
 
----
-## 🎬 Démonstartion video
+> 👉 **Pour installer le Backend**, consultez :
+> https://github.com/Anejjar24/backendAiCodeGenerator
+
+## 🎬 Démonstration vidéo
+
 https://github.com/user-attachments/assets/a285767f-d1a5-4b21-8899-1752601bc0c3
 
-## 🔧 Étapes de démarrage
+## 📦 Technologies utilisées
 
-### 1. Cloner le dépôt
+- React + Vite
+- Axios
+- TailwindCSS (si utilisé)
+- Chart.js ou Recharts
 
-Ouvrez un terminal et exécutez :
+## 🚀 Installation & Démarrage
+
+### 1️⃣ Cloner le dépôt
 
 ```bash
 git clone https://github.com/Anejjar24/FrontEndPFA.git
 ```
 
----
-
-### 2. Accéder au dossier du projet
+### 2️⃣ Accéder au projet
 
 ```bash
 cd FrontEndPFA
 ```
 
----
-
-### 3. Installer les dépendances
-
-Assurez-vous d’avoir **Node.js** installé, puis exécutez :
+### 3️⃣ Installer les dépendances
 
 ```bash
 npm install
 ```
 
----
-
-### 4. Lancer le serveur de développement
+### 4️⃣ Lancer le serveur
 
 ```bash
 npm run dev
 ```
 
+## ⚙️ Configuration API
 
+```
+VITE_API_URL=http://127.0.0.1:8000
+```
 
----
+## 📁 Structure
 
-## ✅ Prérequis
-
-- Node.js (version recommandée : 16 ou supérieure)
-- npm (installé avec Node.js)
-- Un terminal ou Git Bash
-
----
-
+```
+FrontEndPFA/
+│── src/
+│── public/
+│── index.html
